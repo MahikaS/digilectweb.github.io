@@ -5,14 +5,17 @@
 }
 
 html {
-    font-size: 18px;
     font-family: 'sf_pro_displayregular';
-    letter-spacing: 1.2px;
-    color: #2F2F36
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    color: #2F2F36;
+    line-height: 1.8;
 }
 
 nav h3{
     margin: 2% 5%;
+    font-size: 1.8vw;
+    font-family: 'sf_pro_displaybold';
 }
 
 .order {
@@ -23,6 +26,7 @@ nav h3{
 
 .order-text {    
     padding: 10%;
+    max-width: 80%;
 }
 
 .order img {
@@ -31,16 +35,17 @@ nav h3{
 }
 
 .order-text .button{
-    padding: 4% 7%;
+    padding: 2% 8%;
     background-color: #2F2F36;
     color: #FBFBFB;
-    border-radius: 8px;
+    border-radius: 5px;
     margin: 10% 0;
 }
 
 .order-text h1 {
     margin-bottom: 2%;
     font-family: 'sf_pro_displaybold';
+    font-size: 32px;
 }
 
 input {
@@ -68,5 +73,7 @@ input:last-of-type {
 a {
     text-decoration: none;
     color: #FBFBFB;
-    font-family: 'sf_pro_displaymedium'; 
+    /* font-family: 'sf_pro_displaymedium';  */
+    font-size: 14px;
 }
+
