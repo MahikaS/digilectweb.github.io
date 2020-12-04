@@ -6,10 +6,11 @@
 }
 
 html {
-    font-size: 18px;
     font-family: 'sf_pro_displayregular';   
-    letter-spacing: 1.2px;
-    color: #2F2F36
+    color: #2F2F36;
+    line-height: 1.8;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
 }
 
 /*--------------Header Styles----------------*/
@@ -20,6 +21,11 @@ nav {
     margin: 2% 5%;
 }
 
+nav h3{
+    font-size: 1.8vw;
+    font-family: 'sf_pro_displaybold';
+}
+
 ul {
     display: flex;
 }
@@ -27,12 +33,13 @@ ul {
 li {
     padding: 5px 20px;
     list-style: none;
-    font-family: 'sf_pro_displaymedium'; 
     display: inline-block;
 } 
 
 li a{
     color: #2F2F36;
+    font-family: 'sf_pro_displaymedium'; 
+    font-size: 1.3vw;
 }
 
 .animate::after {
@@ -55,8 +62,8 @@ li a{
 .top {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 2% 10%; 
-    padding: 10% 0;
+    margin: 0 10%; 
+    padding: 5% 0;
 }
 
 .top-blah {    
@@ -68,6 +75,7 @@ li a{
 
 .top-blah h1 {
     font-family:'sf_pro_displaybold';
+    font-size: 2.2vw;
 }
 
 .top-blah p {
@@ -81,16 +89,15 @@ li a{
 }
 
 .top-blah .button{
-    padding: 4% 7%;
+    padding: 2% 8%;
     background-color: #2F2F36;
     color: #FBFBFB;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .button:hover {
     border: 2px #2F2F36 solid;
     background-color: #FBFBFB;
-    border-radius: 5px;
     transition: 0.2s;
 }
 
@@ -103,6 +110,7 @@ a {
     text-decoration: none;
     color: #FBFBFB;
     font-family: 'sf_pro_displaymedium'; 
+    font-size: 14px;
 }
 
 /*------------Problem Styles--------------*/
@@ -123,13 +131,15 @@ a {
 
 .the-problem h2, .the-sol h2 {
     font-family: 'sf_pro_displaybold';
+    font-size: 2.2vw;
 }
 
 .the-problem, .the-sol {
     background-color: #FBFBFB;
-    padding: 17%;
-    margin: 0 10%;
+    padding: 10%;
+    margin: 0 8%;
     border-radius: 12px;
+    max-width: 80%;
 }
 
 .the-problem p, .the-sol p {
@@ -139,23 +149,32 @@ a {
 /*------------Voting Styles--------------*/
 
 .voting {
-    padding: 7% 10%;
-    padding-top: 17%;
+    padding: 10% 8%;
+    /* padding-top: 15%; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     background-color: #FBFBFB;
 } 
 
+.voting-img{    
+    align-self: center;
+    /* height: 85%; */
+}
+
 .voting img {
-    height: 80%;
+    /* height: 80%; */
 }
 
 .voting-blah {
     padding-top: 15%;
+    margin-left: 8%;
+    text-align: left;
+    max-width: 80%;
 }
 
 .voting-blah h2 {
+    font-size: 2.2vw;
     font-family: 'sf_pro_displaybold';
 }
 
@@ -170,7 +189,7 @@ a {
 }
 
 .verification {
-    padding: 14% 10%;
+    padding: 10% 8%;
     /* padding: 15% 10%; */
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -179,15 +198,18 @@ a {
 .verification img {
     margin-left: 15%;
     border-radius: 8px;
+    /* align-self: center; */
 }
 
 .verification-blah {
     color: #FBFBFB;
+    max-width: 70%;
     margin-top: 20%;
 }
 
 .verification-blah h2 {
     font-family: 'sf_pro_displaybold';
+    font-size: 2.2vw;
 }
 
 .verification-blah p {
@@ -212,6 +234,7 @@ a {
 
 .bhai-1 h2, .bhai-2 h2 {
     font-family: 'sf_pro_displaybold';
+    font-size: 2.2vw;
 }
 
 .bhai-img {
@@ -235,7 +258,7 @@ a {
 }
 
 .bhai-1 p, .bhai-2 p{
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 /*------------Footer Styles--------------*/
@@ -249,3 +272,6 @@ footer p {
     color: #FBFBFB;
     text-align: center;
 }
+
+/*----------Media Queries--------------*/
+
