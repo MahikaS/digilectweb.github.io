@@ -167,10 +167,12 @@ a {
 }
 
 .voting-blah {
-    padding-top: 15%;
     margin-left: 8%;
     text-align: left;
     max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
 }
 
 .voting-blah h2 {
@@ -204,7 +206,9 @@ a {
 .verification-blah {
     color: #FBFBFB;
     max-width: 70%;
-    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
 }
 
 .verification-blah h2 {
@@ -274,4 +278,6 @@ footer p {
 }
 
 /*----------Media Queries--------------*/
+
+
 
