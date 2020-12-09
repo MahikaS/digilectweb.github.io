@@ -21,9 +21,10 @@ nav {
     margin: 2% 5%;
 }
 
-nav h3{
+nav h3 a{
     font-size: 1.8vw;
     font-family: 'sf_pro_displaybold';
+    color: #2F2F36
 }
 
 ul {
