@@ -22,17 +22,20 @@ nav h3 a {
 .order {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 5% 10%; 
+    margin: 5%; 
+       /* background-color: brown; */
 }
 
 .order-text {    
     padding: 10%;
-    max-width: 80%;
+    max-width: 90%;
+    /* background-color: aqua; */
 }
 
 .order img {
     height: 100%;
-    width: 90%
+    width: 90%;
+    /* background-color: plum; */
 }
 
 .order-text .button{
@@ -46,11 +49,11 @@ nav h3 a {
 .order-text h1 {
     margin-bottom: 2%;
     font-family: 'sf_pro_displaybold';
-    font-size: 32px;
+    font-size: 2.2vw;
 }
 
 input {
-    padding: 1%;
+    padding: 1vh;
     margin: 2%;
     width: 80%;
 }
@@ -77,4 +80,3 @@ a {
     /* font-family: 'sf_pro_displaymedium';  */
     font-size: 14px;
 }
-
