@@ -23,19 +23,16 @@ nav h3 a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 5%; 
-       /* background-color: brown; */
 }
 
 .order-text {    
     padding: 10%;
     max-width: 90%;
-    /* background-color: aqua; */
 }
 
 .order img {
     height: 100%;
     width: 90%;
-    /* background-color: plum; */
 }
 
 .order-text .button{
